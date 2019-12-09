@@ -1,0 +1,20 @@
+{
+  "name": "sqlite",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@slack/rtm-api": "^5.0.3",
+    "cheerio": "^1.0.0-rc.3",
+    "dotenv": "^8.2.0",
+    "nedb": "^1.8.0",
+    "nodemon": "^2.0.1",
+    "sequelize": "^5.21.2",
+    "sequelize-cli": "^5.5.1",
+    "short-uuid": "^3.1.1",
+    "sqlite3": "^4.1.1"
+  },
+  "scripts": {
+    "start": "node ./src/index.js"
+  }
+}
